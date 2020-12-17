@@ -1,0 +1,3 @@
+# BNJ-COIN
+
+BINJITCOIN
