@@ -1,0 +1,6 @@
+usr/local/bin/binjit-qt usr/bin
+share/pixmaps/binjit32.xpm usr/share/pixmaps
+share/pixmaps/binjit16.xpm usr/share/pixmaps
+share/pixmaps/binjit128.png usr/share/pixmaps
+debian/binjit-qt.desktop usr/share/applications
+debian/binjit-qt.protocol usr/share/kde4/services/

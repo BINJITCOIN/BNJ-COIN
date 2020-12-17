@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=BinJit
+Comment=BinJit P2P Cryptocurrency
+Comment[fr]=BinJit, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=BinJit, eşten eşe kriptografik sanal para birimi
+Exec=binjit-qt %u
+Terminal=false
+Type=Application
+Icon=binjit128
+MimeType=x-scheme-handler/binjit;
+Categories=Office;Finance;
+StartupWMClass=BinJit-qt

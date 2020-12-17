@@ -1,0 +1,3 @@
+usr/local/bin/binjitd usr/bin
+usr/local/bin/binjit-cli usr/bin
+debian/examples/binjit.conf etc/binjit
