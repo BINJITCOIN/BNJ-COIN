@@ -132,9 +132,9 @@ public:
         consensus.nTimeSlotLength = 15;
 
         // spork keys
-        consensus.strSporkPubKey = "04D64D2442D72B7FF2705F4CC474A66527102219ED51AB7764D8791D30F5F962AFC6F1AF763AD1008625434FD7597B23533AE803C4BDA497C86941B5DFAD1D3AF9";
+        consensus.strSporkPubKey = "047be59a2773b2efdca718ea8318991049b3b5380fd5232f6fbfec481e3558590c651971ad2d941b29e1b31672087d069b276cd4cb11dc3d620f6190b746df9a04";
         consensus.strSporkPubKeyOld = "04D64D2442D72B7FF2705F4CC474A66527102219ED51AB7764D8791D30F5F962AFC6F1AF763AD1008625434FD7597B23533AE803C4BDA497C86941B5DFAD1D3AF9";
-        consensus.nTime_EnforceNewSporkKey = 1593424800;    //!> Monday, 29 June 2020 10:00:00 AM GMT
+        consensus.nTime_EnforceNewSporkKey = 1610087400;    //!> Monday, 29 June 2020 10:00:00 AM GMT
         consensus.nTime_RejectOldSporkKey = 1593475200;     //!> Tuesday, 30 June 2020 12:00:00 AM GMT
 
         // height-based activations
