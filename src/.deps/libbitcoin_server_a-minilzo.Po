@@ -1,43 +1,57 @@
-libbitcoin_server_a-minilzo.o: minilzo.c \
- /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/include-fixed/limits.h \
- /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/include-fixed/syslimits.h \
- /usr/share/mingw-w64/include/limits.h \
- /usr/share/mingw-w64/include/crtdefs.h \
- /usr/share/mingw-w64/include/_mingw.h \
- /usr/share/mingw-w64/include/_mingw_mac.h \
- /usr/share/mingw-w64/include/_mingw_secapi.h \
- /usr/share/mingw-w64/include/vadefs.h \
- /usr/share/mingw-w64/include/sdks/_mingw_directx.h \
- /usr/share/mingw-w64/include/sdks/_mingw_ddk.h \
- /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/include/stddef.h \
- /usr/share/mingw-w64/include/stddef.h minilzo.h lzodefs.h lzoconf.h \
- /usr/share/mingw-w64/include/string.h \
- /usr/share/mingw-w64/include/sec_api/string_s.h \
- /usr/share/mingw-w64/include/assert.h
+libbitcoin_server_a-minilzo.o: minilzo.c /usr/include/stdc-predef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
+ /usr/include/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h minilzo.h lzodefs.h \
+ lzoconf.h /usr/include/string.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/strings.h \
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+ /usr/include/assert.h
 
-/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/include-fixed/limits.h:
+/usr/include/stdc-predef.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/include-fixed/syslimits.h:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h:
 
-/usr/share/mingw-w64/include/limits.h:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h:
 
-/usr/share/mingw-w64/include/crtdefs.h:
+/usr/include/limits.h:
 
-/usr/share/mingw-w64/include/_mingw.h:
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
-/usr/share/mingw-w64/include/_mingw_mac.h:
+/usr/include/features.h:
 
-/usr/share/mingw-w64/include/_mingw_secapi.h:
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
-/usr/share/mingw-w64/include/vadefs.h:
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
-/usr/share/mingw-w64/include/sdks/_mingw_directx.h:
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
 
-/usr/share/mingw-w64/include/sdks/_mingw_ddk.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/include/stddef.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
-/usr/share/mingw-w64/include/stddef.h:
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h:
 
 minilzo.h:
 
@@ -45,8 +59,16 @@ lzodefs.h:
 
 lzoconf.h:
 
-/usr/share/mingw-w64/include/string.h:
+/usr/include/string.h:
 
-/usr/share/mingw-w64/include/sec_api/string_s.h:
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
-/usr/share/mingw-w64/include/assert.h:
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/strings.h:
+
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
+
+/usr/include/assert.h:

@@ -444,32 +444,50 @@ inline int64_t GetMNCollateral(int nHeight) {
         return 1500;
     }else if (nHeight <= 100000) {
         return 1700;
-    }else if (nHeight <= 130000) {
-        return 1900;
-    }else if (nHeight <= 150000) {
-        return 2100;
-    }else if (nHeight <= 170000) {
-        return 2300;
-    }else if (nHeight <= 200000) {
+    }else if (nHeight <= 120000) {
         return 2500;
-    }else if (nHeight <= 230000) {
-        return 2700;
-    }else if (nHeight <= 250000) {
-        return 2000;
-    }else if (nHeight <= 300000) {
-        return 2500;
-    }else if (nHeight <= 340000) {
+    }else if (nHeight <= 140000) {
         return 3000;
-    }else if (nHeight <= 370000) {
-        return 3100;
-    }else if (nHeight <= 400000) {
-        return 3300;
-    }else if (nHeight <= 450000) {
+    }else if (nHeight <= 165000) {
         return 3500;
-    }else if (nHeight <= 500000) {
-        return 4000;
+    }else if (nHeight <= 190000) {
+        return 4500;
+    }else if (nHeight <= 215000) {
+        return 5500;
+    }else if (nHeight <= 240000) {
+        return 6500;
+    }else if (nHeight <= 265000) {
+        return 7500;
+    }else if (nHeight <= 290000) {
+        return 9000;
+    }else if (nHeight <= 315000) {
+        return 11000;
+    }else if (nHeight <= 340000) {
+        return 13000;
+    }else if (nHeight <= 365000) {
+        return 15000;
+    }else if (nHeight <= 390000) {
+        return 20000;
+    }else if (nHeight <= 415000) {
+        return 25000;
+    }else if (nHeight <= 440000) {
+        return 30000;
+    }else if (nHeight <= 465000) {
+        return 35000;
+    }else if (nHeight <= 490000) {
+        return 45000;
+    }else if (nHeight <= 515000) {
+        return 55000;
+    }else if (nHeight <= 550000) {
+        return 70000;
+    }else if (nHeight <= 600000) {
+        return 75000;
+    }else if (nHeight <= 650000) {
+        return 85000;
+    }else if (nHeight <= 700000) {
+        return 95000;
     }else
-        return 5000;
+        return 99000;
 
 }
 #endif // BITCOIN_MAIN_H
