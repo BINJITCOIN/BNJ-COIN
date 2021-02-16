@@ -132,7 +132,7 @@ public:
         consensus.nTimeSlotLength = 15;
 
         // spork keys
-        consensus.strSporkPubKey = "045356c82cc11a30c1870cd009ef7e00dae5e84f1c3bd142065b3ea88bf4da00e5bc1189f5ed36a2ed4db2e30de9a37010982246e1847b782cc92edbe2ddca311b";
+        consensus.strSporkPubKey = "047be59a2773b2efdca718ea8318991049b3b5380fd5232f6fbfec481e3558590c651971ad2d941b29e1b31672087d069b276cd4cb11dc3d620f6190b746df9a04";
         consensus.strSporkPubKeyOld = "04e219abe292e3c9d3c77e3c9f2aa7a0e1a883295358f5b1a81423b24ba5dbe9bac7831bf95f61883918fcaefbae2cfdd67faabb5a576513985d1e300aeaf22926";
         consensus.nTime_EnforceNewSporkKey = 1610087400;    //!> Monday, 29 June 2020 10:00:00 AM GMT
         consensus.nTime_RejectOldSporkKey = 1593475200;     //!> Tuesday, 30 June 2020 12:00:00 AM GMT
@@ -228,7 +228,7 @@ public:
         consensus.nTimeSlotLength = 15;
 
         // spork keys
-        consensus.strSporkPubKey = "047be59a2773b2efdca718ea8318991049b3b5380fd5232f6fbfec481e3558590c651971ad2d941b29e1b31672087d069b276cd4cb11dc3d620f6190b746df9a04";
+        consensus.strSporkPubKey = "04b1f3649fa59bace5829395cd5b1b8a2e8d5d9c0442f192eb9a0ff86da9e766e541975848d4c6da8bd0cc354698c3ab730fafb8beb57d25c23c62545e22b77370";
         consensus.strSporkPubKeyOld = "04b06177f07ca49b45e608303836067047aecaff28f0eff94322b19a0be282c0def50b043c5012719e458fa19bdf2b19b406d03425a5443e8353ec14cc07b7774e";
         consensus.nTime_EnforceNewSporkKey = 1566860400;    //!> August 26, 2019 11:00:00 PM GMT
         consensus.nTime_RejectOldSporkKey = 1569538800;     //!> September 26, 2019 11:00:00 PM GMT
